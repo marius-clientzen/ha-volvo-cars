@@ -330,7 +330,7 @@ class VolvoCarsDataCoordinator(DataUpdateCoordinator[CoordinatorData]):
             self.commands = [
                 command.command
                 for command in commands
-                if command and command.command not in ("ENGINE_START", "ENGINE_STOP")
+                if command
             ]
 
             # Check if location is supported

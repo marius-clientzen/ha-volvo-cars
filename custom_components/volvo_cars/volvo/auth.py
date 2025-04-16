@@ -15,6 +15,7 @@ _SCOPE = [
     "openid",
     "conve:brake_status",
     "conve:climatization_start_stop",
+    "conve:engine_start_stop",
     "conve:command_accessibility",
     "conve:commands",
     "conve:diagnostics_engine_status",
