@@ -8,10 +8,14 @@ __pycache__
 # editor
 .idea
 
+# releases
+volvo_cars.zip
+
 # misc
 .coverage
 .mypy_cache
 .ruff_cache
+.DS_Store
 
 coverage.xml
 venv
